@@ -156,8 +156,14 @@
          }
       </style>
    </head>
-   <body>
       <div class="reveal">
+   <body>
+          <div style="position: fixed; bottom: 12px; left: 16px; 
+              font-size: 0.45em; color: rgba(0,0,0, 0.55) ; 
+              z-index: 999;">
+    © 2026 Dan Dyar, MA, ACS, RDCS, FASE · parameterz.github.io/beyond-the-ratio
+  </div>
+
          <div class="slides">
             <!-- ============================================ -->
             <!-- OPENING: THE IMPOSSIBLE PATIENT              -->
@@ -521,7 +527,7 @@
          style="display:flex; flex-direction:column; align-items:center;
          padding: 0 !important;">
   <iframe src="https://parameterz.github.io/cardiac-scaling/"
-          style="width:95%; height:95vh; border:none; 
+          style="width:90%; height:95vh; border:none; 
                  border-radius:12px; 
                  box-shadow: 0 8px 32px rgba(0,0,0,0.4);">
   </iframe>
@@ -537,7 +543,7 @@
          data-background-size="cover"
          style="display:flex; flex-direction:column; align-items:center;">
   <iframe src="https://parameterz.github.io/cardiac-scaling-ivs/"
-          style="width:95%; height:82vh; border:none; 
+          style="width:90%; height:82vh; border:none; 
                  border-radius:12px; 
                  box-shadow: 0 8px 32px rgba(0,0,0,0.4);">
   </iframe>
@@ -582,6 +588,12 @@ Reveal.initialize({
     width: 1142,
     height: 725,
     margin: 0.04,
+
+      width: "100%",
+  height: "100%",
+  margin: 0,
+  minScale: 1,
+  maxScale: 1,
     
     autoSlide: 0
 });
